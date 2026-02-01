@@ -32,7 +32,6 @@ feather.replace();
 
 // Headshot modal functionality
 const headshotImages = [
-    'assets/headshots (5).jpg',
     'assets/headshots (6).jpg',
     'assets/headshots (2).jpg',
     'assets/headshots (1).jpg',
@@ -86,7 +85,9 @@ const galleryImages = {
         { src: 'assets/5.jpg', title: 'Eco Challenge', role: 'Host Wendy Weathers', company: 'Fantasy Theatre Factory', date: 'April 2022' },
         { src: 'assets/6.jpg', title: 'Little Monster Tales', role: 'Queen Sussifruss & Others', company: 'Fantasy Theatre Factory', date: 'October 2021-23' },
         { src: 'assets/7.jpg', title: 'Polar Express', role: '', company: 'Bailey Railway Productions', date: 'December 2021' },
-        { src: 'assets/8.jpg', title: 'In The Hyphen', role: 'One Person Show Thesis', company: '', date: 'May 2021' }
+        { src: 'assets/8.jpg', title: 'In The Hyphen', role: 'One Person Show Thesis', company: '', date: 'May 2021' },
+        { src: 'assets/14.png', title: 'The MIS-Adventures of Pinocchio', role: 'Talking Cricket, Cat & More', company: 'Fantasy Theatre Factory', date: 'May - July 2025' },
+        { src: 'assets/15.png', title: 'Scrooge! A Fractured Christmas Carol', role: 'Mrs.Cratchit, Mrs. Fezziwig & More', company: 'Fantasy Theatre Factory', date: 'December 2025' }
     ],
     film: [
         { src: 'assets/9.jpg', title: 'Mc Donald\'s & Minecraft', role: 'Social Media Commercial', company: '', date: 'January 2025' },
