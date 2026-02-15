@@ -144,24 +144,21 @@
     <!-- Headshots & Resume Section -->
     <section id="headshots" class="py-20 px-4 max-w-full mx-auto">
         <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 font-['Libre_Baskerville'] text-premium-blue">Headshots & Resume</h2>
-        <div class="flex flex-nowrap overflow-x-auto justify-start lg:justify-center gap-8 mb-12 max-w-8xl mx-auto px-8 pb-4">
-            <div class="overflow-hidden rounded-lg shadow-lg hover-scale cursor-pointer h-48 md:h-64 lg:h-80 w-28 md:w-48" data-aos="zoom-in" data-aos-delay="100" onclick="openHeadshotModal(0)">
+        <div class="flex flex-col md:flex-row md:flex-nowrap md:overflow-x-auto items-center md:items-stretch justify-start lg:justify-center gap-6 md:gap-8 mb-12 max-w-8xl mx-auto px-4 md:px-8 pb-4">
+            <div class="overflow-hidden rounded-lg shadow-lg hover-scale cursor-pointer h-64 md:h-64 lg:h-80 w-full max-w-xs md:w-48 md:max-w-none" data-aos="zoom-in" data-aos-delay="100" onclick="openHeadshotModal(0)">
                 <img src="assets/headshots (6).jpg" alt="Headshot 2" class="w-full h-full object-cover">
             </div>
-            <div class="overflow-hidden rounded-lg shadow-lg hover-scale cursor-pointer h-48 md:h-64 lg:h-80 w-28 md:w-48" data-aos="zoom-in" data-aos-delay="200" onclick="openHeadshotModal(1)">
+            <div class="overflow-hidden rounded-lg shadow-lg hover-scale cursor-pointer h-64 md:h-64 lg:h-80 w-full max-w-xs md:w-48 md:max-w-none" data-aos="zoom-in" data-aos-delay="200" onclick="openHeadshotModal(1)">
                 <img src="assets/headshots (2).jpg" alt="Headshot 3" class="w-full h-full object-cover">
             </div>
-            <div class="overflow-hidden rounded-lg shadow-lg hover-scale cursor-pointer h-48 md:h-64 lg:h-80 w-28 md:w-48" data-aos="zoom-in" data-aos-delay="300" onclick="openHeadshotModal(2)">
+            <div class="overflow-hidden rounded-lg shadow-lg hover-scale cursor-pointer h-64 md:h-64 lg:h-80 w-full max-w-xs md:w-48 md:max-w-none" data-aos="zoom-in" data-aos-delay="300" onclick="openHeadshotModal(2)">
                 <img src="assets/headshots (1).jpg" alt="Headshot 4" class="w-full h-full object-cover">
             </div>
-            <div class="overflow-hidden rounded-lg shadow-lg hover-scale cursor-pointer h-48 md:h-64 lg:h-80 w-28 md:w-48" data-aos="zoom-in" data-aos-delay="400" onclick="openHeadshotModal(3)">
+            <div class="overflow-hidden rounded-lg shadow-lg hover-scale cursor-pointer h-64 md:h-64 lg:h-80 w-full max-w-xs md:w-48 md:max-w-none" data-aos="zoom-in" data-aos-delay="400" onclick="openHeadshotModal(3)">
                 <img src="assets/headshots (3).jpg" alt="Headshot 5" class="w-full h-full object-cover">
             </div>
-            <div class="overflow-hidden rounded-lg shadow-lg hover-scale cursor-pointer h-48 md:h-64 lg:h-80 w-28 md:w-48" data-aos="zoom-in" data-aos-delay="500" onclick="openHeadshotModal(4)">
+            <div class="overflow-hidden rounded-lg shadow-lg hover-scale cursor-pointer h-64 md:h-64 lg:h-80 w-full max-w-xs md:w-48 md:max-w-none" data-aos="zoom-in" data-aos-delay="500" onclick="openHeadshotModal(4)">
                 <img src="assets/headshots (4).jpg" alt="Headshot 6" class="w-full h-full object-cover">
-            </div>
-            <div class="overflow-hidden rounded-lg shadow-lg hover-scale cursor-pointer h-48 md:h-64 lg:h-80 w-28 md:w-48" data-aos="zoom-in" data-aos-delay="600">
-                <iframe class="w-full h-full" src="https://www.youtube.com/embed/vVyq-jhiuwM" title="Full Body Shot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
         <div class="text-center">
@@ -377,8 +374,10 @@
         <!-- Vocal Videos -->
         <div id="vocalReels" class="reel-category hidden" data-aos="fade-up">
             <div class="flex justify-center">
-                <div class="bg-gray-100 rounded-lg p-8 text-center max-w-2xl">
-                    <p class="text-gray-600 text-lg">Vocal Reels Coming Soon...</p>
+                <div class="flex flex-col items-center gap-6 w-full">
+                    <div class="aspect-video w-full max-w-2xl">
+                        <iframe class="w-full h-full rounded-lg shadow-lg" src="https://www.youtube.com/embed/vVyq-jhiuwM" title="Vocal Reel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>
